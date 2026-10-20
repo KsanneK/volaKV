@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "crates/volakv-core",
+    "crates/volakv-server",
+    "crates/volakv-cli",
+]
+resolver = "2"
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+authors = ["KsanneK"]
+license = "MIT"
+[workspace.dependencies]
+bytes = "1.6"
